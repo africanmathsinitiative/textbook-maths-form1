@@ -1,0 +1,108 @@
+\documentclass[11pt, oneside]{article}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage{array}
+\usepackage{pstricks-add}
+
+
+\theoremstyle{definition}
+\newtheorem{exmp}{Example}[section]
+
+\begin{document}
+
+\section{Divisibility Tests}
+
+If a number is a factor of a second number, we say that this second number is divisible by the first. For example, 3 is a factor of 30 since $30 = 3\times 10$. So, we can say that 30 is divisible by 3. We can check if a number is divisible by another simply by dividing, if we obtain a Natural Number as an answer, i.e. remainder 0, we know that it is divisible. Fortunately, there are some tests that help us determine if a number is divisible by certain small numbers.
+
+\subsection{Divisibility by 2}
+
+If a number is even, i.e. the units digit is 0, 2, 4, 6 or 8, we know that it is divisible by 2. For example 13{\bf 8} is divisible by 2 as the units digit of 138 is 8 and 138 is an even number. In contrast, 13{\bf 7} is not divisible by 2 as its units digit is 7 and 137 is not even. 
+
+\subsection{Divisibility by 3}
+
+We can check if a Natural Number is divisible by 3 by adding its digits. If the result is a multiple of 3 then the number is divisible by 3. For example 126 is divisible by 3 since $1 + 2 + 6 = 9$, which is a multiple of 3. In contrast, 413 is not divisible by 3 since $4 + 1 + 3 = 8$, which is not a multiple of 3. For larger numbers we could get a result that we might not know is a multiple of 3, what we can do is repeat the process until we get a suitable answer. For example, to check if 98,795 is divisible by 3 we add its digits and obtain $9 + 8 + 7 + 9 + 5 = 38$. We now repeat the process with 38 and obtain $3 + 8 = 11$, which is not a multiple of 3, so 98,795 is not divisible by 3. In contrast, if we check whether 99,678 is divisible by 3 we add its digits and obtain $9 + 9 + 6 + 7 + 8 = 39$. We repeat the process with 39 and obtain $3 + 9 = 12$, which is a multiple of 3, so 99,679 is divisible by 3.
+
+\subsection{Divisibility by 4}
+
+To test if a number is divisible by 4 we simply need to check if the number formed by its last two digits is divisible by 4. For example, 3,1{\bf24} is divisible by 4 since 24 is divisible by 4. In contrast 6,7{\bf31} is not divisible by 4 since 31 is not divisible by 4. It can sometimes be difficult to check if the number obtained from the last two digits is divisible by 4. If this is the case we can try to divide by 4 directly or otherwise divide by 2 twice. For example, to check if 7,082 is divisible by 4 we consider the number 82: $82\div 2 = 41$ and we can't divide 41 by 2 again so 7,082 is not divisible by 4. In contrast, when we check if 10,792 is divisible by 4 we consider 92: $92\div 2 = 46$ and $46 \div 2 = 23$ so 10,792 is divisible by 4.
+
+\subsection{Divisibility by 5}
+
+If a number ends with a 5 or a 0 it is divisible by 5. For example 67{\bf5} is divisible by 5 as it ends with 5. Similarly, 84{\bf0} is divisible by 5 as it ends with 0. In contrast, 45{\bf3} is not divisible by 5 as it ends with 3 and not with 0 or 5.
+
+\subsection{Divisibility by 6}
+
+If a number is divisible by 2 and 3 it is also divisible by 6. For example, to check if 636 is divisible by 6 we fist check if it is divisible by 2. Since the units digit of 636 is 6, we know that 636 is divisible by 2. We then check if it is divisible by 3. Adding the digits we obtain $6 + 3 + 6 = 15$, which is a multiple of 3, so 636 is divisible by 3. So we can conclude that 636 is divisible by 6. In contrast, when we check if 7,265 is divisible by 6 we notice that the test for divisibility b 2 fails as the units digit is 5 so we can directly conclude that 7,265 is not divisible by 6. If we now check 83,954 is divisible by 6 we notice that the test for divisibility by 2 is successful as the units digit is 4. However, when we carry out the test for divisibility by 3 and add the digits we get $8 + 3 + 9 + 5 + 4 = 29$ which is not a multiple of 3, so the test fails and we can conclude that 83,954 is not divisible by 6.
+
+\subsection{Divisibility by 9}
+
+The test for divisibility by 9 is very similar to the one for 3, except that the digit sum has to be a multiple of 9. For example, to check if 378 is divisible by 9 we add its digits and obtain $3 + 7 + 8 = 18$, which is a multiple of 9. In contrast, when we add the digits of 5,621 we obtain $5 + 6 + 2 + 1 = 14$, which is not a multiple of 9 so 5,621 is not a multiple of 9.
+
+\subsection{Divisibility by 10}
+A number is divisible by 10 only if its units digit is 0. For example, 3,760 is divisible by 10 as its units digit is 0. In contrast, 8,642 is not divisible by 10 as its units digit is 2 and not 0.
+
+Let's now look at some examples:
+
+\begin{exmp} \end{exmp}
+We can use these tests to check if 6,712 is divisible by 2, 3, 4, 5, 6, 9 and 10.
+
+\begin{itemize}
+\item 6,712 is divisible by 2 as its last digit is 2.
+\item $6 + 7 + 1 + 2 = 16$, which is not a multiple of 3, so 6,712 is not divisible by 3.
+\item The number formed by the last two digits of 6,712 is 12, which is a multiple of 4, and so 6,712 is divisible by 4.
+\item The last digit of 6,712 is 2, not 0 or 5, so 6,712 is not divisible by 5.
+\item 6,712 is divisible by 2 but not divisible by 3, so 6,712 is not divisible by 6.
+\item The digit sum calculated above is 16, which is not a multiple of 9, so 6,712 is not divisible by 9.
+\item The units digit of 6,712 is 2 and not 0, so 6,712 is not divisible by 10.
+\end{itemize}
+
+\begin{exmp} \end{exmp}
+We can use these tests to check if 270 is divisible by 2, 3, 4, 5, 6, 9 and 10.
+
+\begin{itemize}
+\item 270 is divisible by 2 as its last digit is 0.
+\item $2 + 7 + 0 = 9$, which is a multiple of 3, so 270 is divisible by 3.
+\item The number formed by the last two digits of 270 is 70. $70 \div 2 = 35$ but we can't divide 35 by 2 again, so 270 is not divisible by 4.
+\item The last digit of 270 is 0, so 270 is divisible by 5.
+\item 270 is divisible by both 2 and 3, as shown above, so 270 is divisible by 6.
+\item The digit sum calculated above is 9, which is a multiple of 9, so 270 is divisible by 9.
+\item The units digit of 270 is 0, so 270 is divisible by 10.
+\end{itemize}
+
+
+\subsection{Exercises}
+Check if the following numbers are divisible by 2, 3, 4, 5, 6, 9 and 10:
+\begin{enumerate}
+\item 735
+\item 1345
+\item 2850
+\item 6040
+\item 684
+\end{enumerate}
+
+\end{document}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
