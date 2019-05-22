@@ -1,0 +1,113 @@
+\documentclass[11pt, oneside]{article}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage{array}
+\usepackage{pstricks-add}
+
+
+\theoremstyle{definition}
+\newtheorem{exmp}{Example}[section]
+
+\begin{document}
+
+\section{Highest Common Factor}
+
+Imagine a textile worker who has two pieces of cloth of the same width, one 72 cm long and the second 64 cm long. She wants to cut the cloths into strips of equal length without wasting any materials. She will make ribbons with these strips and the best design uses strips as long as possible. What length should her strips be? 
+
+Here, we can think of the possible sizes in which she can cut each cloth and compare them. As we don't want to have any waste, we need to find all the factors of 72 and 64. Let's start with 72:
+
+\begin{itemize}
+\item $72 = 1\times 72$
+\item $72 = 2 \times 36$
+\item $72 = 3 \times 24$
+\item $72 = 4 \times 18$
+\item $72 = 6\times 12$
+\item $72 = 8\times 9$
+\end{itemize} 
+So we could cut the first cloth in pieces of length 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36 or 72 cm.
+
+The factors of 64 are:
+\begin{itemize}
+\item $64 = 1\times 64$
+\item $64 = 2 \times 32$
+\item $64 = 4 \times 16$
+\item $64 = 8\times 8$
+\end{itemize} 
+So we could cut the second cloth in pieces of 1, 2, 4, 8, 16, 32 or 64 cm long.
+
+Comparing these results we can see that the longest cuts could be 8 cm long. This is called the Highest Common Factor of 72 and 64. It is the largest number that is a factor of both 72 and 64. However, this method of finding the Highest Common Factor is not very efficient so we will look at a more efficient way of finding it using factorisation of Natural Numbers into primes:
+
+\begin{exmp} \end{exmp}
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+72 & 2  \\
+36 & 2  \\
+18 & 2  \\
+9 & 3  \\
+3 & 3 \\
+1 &  
+\end{tabular}
+
+So $72 = 2 \times 2 \times 2 \times 3 \times 3$
+
+\begin{exmp} \end{exmp}
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+64 & 2  \\
+32 & 2  \\
+16 & 2  \\
+8 & 2  \\
+4 & 2 \\
+2 & 2 \\
+1 
+\end{tabular}
+
+So $64 = 2 \times 2 \times 2 \times 2 \times 2 \times 2$
+
+We now look at all the common prime factors and multiply them to obtain the highest common factor:
+
+\begin{tabular}{c c c c c c c c c c c c c}
+72 & = & {\bf2} & $\times $ & {\bf2} & $\times$  & {\bf2} & $\times$ & 3 & $\times $ & 3  &  &  \\
+64 & = & {\bf2} & $\times $ & {\bf2} & $\times$  & {\bf2} & $\times$ & 2 & $\times $ & 2 & $\times $ & 2
+\end{tabular}
+
+
+In this case it would be $2\times 2\times 2 = 8$.
+
+
+
+Let's now look at some examples:
+
+\begin{exmp} \end{exmp}
+
+
+\subsection{Exercises}
+Check if the following numbers are divisible by 2, 3, 4, 5, 6, 9 and 10:
+\begin{enumerate}
+\item 
+\end{enumerate}
+
+\end{document}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
