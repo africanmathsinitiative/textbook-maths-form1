@@ -6,3 +6,5 @@ The aim is to keep each section as self contained as possible without referencin
 Note to add: Real Life examples to introduce topics. 
 
 Note to add: When can we stop finding ways of multiply a number by two factors when finding all the factors and why. At least one example.
+
+Note to add: a comprehension exercise from a 'real world' scenario

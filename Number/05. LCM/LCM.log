@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  23 MAY 2019 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  23 MAY 2019 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**HCF.tex
-(./HCF.tex
+**LCM.tex
+(./LCM.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -571,8 +571,8 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 )
 \c@exmp=\count293
 
-(./HCF.aux)
-\openout1 = `HCF.aux'.
+(./LCM.aux)
+\openout1 = `LCM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -686,18 +686,11 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -728,44 +721,24 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-Overfull \hbox (2.19865pt too wide) in paragraph at lines 164--164
-[]|\OT1/cmr/m/n/10.95 280| 
- []
-
-
-Overfull \hbox (2.19865pt too wide) in paragraph at lines 165--165
-[]|\OT1/cmr/m/n/10.95 140| 
- []
-
-[3]
-Overfull \hbox (2.19865pt too wide) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/10.95 210| 
- []
-
-
-Overfull \hbox (2.19865pt too wide) in paragraph at lines 305--305
-[]|\OT1/cmr/m/n/10.95 105| 
- []
-
-[4] [5] (./HCF.aux) ) 
+(./LCM.aux) ) 
 Here is how much of TeX's memory you used:
- 19799 strings out of 492649
- 374718 string characters out of 6129622
- 475666 words of memory out of 5000000
- 23464 multiletter control sequences out of 15000+600000
+ 19782 strings out of 492649
+ 374413 string characters out of 6129622
+ 466666 words of memory out of 5000000
+ 23450 multiletter control sequences out of 15000+600000
  536438 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,53p,10355b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on HCF.pdf (5 pages, 57253 bytes).
+ 44i,7n,53p,10355b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb>
+Output written on LCM.pdf (1 page, 45219 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
