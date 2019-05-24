@@ -17,20 +17,73 @@
 
 \section{Lowest Common Multiple}
 
+Two long distance runners go training at a running circuit and start together at the same time. The first one takes 10 minutes to complete the circuit and the second takes 12 minutes. How long do they have to run for if they want to stop training when they meet again at the starting point? To find out when they will meet again we can see when each will be at the starting point and notice they coincide. The first runner takes 10 minutes, se we need to consider the multiples of 10 to find every time she reaches the starting line. The first ten multiples of 10 are 10, 20, 30, 40, 50, 60, 70, 80, 90 and 100. Similarly, the second runner will cross the start line at multiples of 12 as she takes 12 minutes to complete the track. The first ten multiples of 12 are 12, 24, 36, 48, 60, 72, 84, 96, 108 and 120. Comparing the lists of multiples we can conclude that they will both be together at the starting line at the same time is 60 minutes after starting, so they will finish their training after 60 minutes. This number is the smallest number that is a multiple of both 10 and 12 and can be very useful in many contexts. This is called the Lowest Common Multiple.
 
+This process can be quite cumbersome and might take longer than we expect, particularly for larger numbers. Fortunately, we can find Lowest Common Multiples of sets of numbers by studying their prime factorisation. Let's consider the prime factorisation of 10 and 12:
 
-\begin{tabular}{c c c c c c c c c c c c c}
-72 & = & {\bf2} & $\times $ & {\bf2} & $\times$  & {\bf2} & $\times$ & 3 & $\times $ & 3  &  &  \\
-64 & = & {\bf2} & $\times $ & {\bf2} & $\times$  & {\bf2} & $\times$ & 2 & $\times $ & 2 & $\times $ & 2
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+10 & 2  \\
+5 & 5  \\
+1 &  
 \end{tabular}
 
-In this case it would be $2\times 2\times 2 = 8$.
+So $10 = 2 \times 5$
 
+\bigbreak
 
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+12 & 2  \\
+6 & 2  \\
+3 & 3  \\
+1 
+\end{tabular}
+
+So $12 = 2 \times 2 \times 3$
+
+We now look at all the prime factors, grouping them so that the same primes appear together:
+
+\begin{tabular}{c c c c c c c c c c c c c}
+10 & = & 2 & $\times$ & 5 &  &  &  &  &  &  &  &  \\
+12 & = & 2 & $\times$ & 2 & $\times$ & 3 &  &  &  &  &  & 
+\end{tabular}
+
+All the multiples of 10 will have to have 2 and 5 as prime factors. All the multiples of 12 will have 2, 2 and 3 as prime factors. So to find the Lowest Common Multiple we need to include 2 two times, 3 once and 5 once to make sure that it is a multiple of both 10 and 12. This gives us a Lowest Common Multiple of $2\times 2 \times 3 \times 5 = 60$.
 
 Let's now look at some examples:
 
 \begin{exmp} \end{exmp}
+To find the Lowest Common Multiple of 18 and 24:
+
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+18 & 2  \\
+9 & 3  \\
+3 & 3  \\
+1 &  
+\end{tabular}
+
+So $18 = 2 \times 3 \times 3$
+
+\bigbreak
+
+\begin{tabular}{ p{0.5cm} | p{1.5cm}}
+24 & 2  \\
+12 & 2  \\
+6 & 2  \\
+3 & 3  \\
+1 
+\end{tabular}
+
+So $24 = 2\times 2 \times 2 \times 3$
+
+We now look at all the prime factors, grouping them so that the same primes appear together:
+
+\begin{tabular}{c c c c c c c c c c c c c}
+18 & = & 2 & $\times$ & 3 & $\times$ & 3 &  &  &  &  &  &  \\
+24 & = & 2 & $\times$ & 2 & $\times$ & 2 & $\times$ & 3 &  &  &  & 
+\end{tabular}
+
+We notice that 2 appears three times in the factorisation of 24, and two times in the factorisation of 18, se we need 2 to appear three times. Similarly, 3 appears twice in the factorisation of 18 and once in the factorisation of 24, so we need it to appear twice. So the Lowest Common Multiple of 18 and 24 is $2\times 2 \times 2 \times 3 \times 3 = 72$.
+
 
 
 \subsection{Exercises}
