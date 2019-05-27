@@ -1,4 +1,7 @@
 # textbook-maths-form1
+
+Cammy has found this really useful website which details the topics and objectives for the Kenyan Curriculum. We will now base the sections and content on the material on this website, which is in line with the document Zach sent originally. http://www.elimu.net/Secondary/Kenya/KCSE_Student/Maths/Form1/KCSE%20Form%201%20Maths%20Curriculum.htm
+
 At the moment I am writing the Number section. I will be renumbering the folders to keep a logical order as I am missing the introductory section on Natural Numbers and the final order of things is not fully defined.
 The Kenyan Curriculum Topics is the file I'm using to base the materials. Some of the topics in the list need to be sub-divided into several sections.
 The aim is to keep each section as self contained as possible without referencing to each other for the time being.

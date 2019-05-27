@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2019.4.23)  22 MAY 2019 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  22 MAY 2019 08:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -40,10 +40,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -140,8 +140,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -551,15 +552,16 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen264
 \l__coffin_scaled_width_dim=\dimen265
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3dvips.def
-File: l3dvips.def 2017/03/18 v L3 Experimental driver: dvips
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count287
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count287
-\g__xparse_grabber_int=\count288
-\l__xparse_m_args_int=\count289
-\l__xparse_mandatory_args_int=\count290
-\l__xparse_v_nesting_int=\count291
+\l__xparse_current_arg_int=\count288
+\g__xparse_grabber_int=\count289
+\l__xparse_m_args_int=\count290
+\l__xparse_mandatory_args_int=\count291
+\l__xparse_v_nesting_int=\count292
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -567,7 +569,7 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 . Defining command \psCalc with sig. 'm' on line 23.
 .................................................
 )
-\c@exmp=\count292
+\c@exmp=\count293
 
 (./Factors of Natural Numbers.aux)
 \openout1 = `"Factors of Natural Numbers.aux"'.
@@ -585,10 +587,75 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen266
+\scratchbox=\box49
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen267
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks42
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -619,42 +686,27 @@ LaTeX Font Info:    ... okay on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
+./Factors of Natural Numbers.tex:27: Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.27 \psline[linewidth=2.pt](
+                             -1.,2.)(-1.,3.)
+? 
+./Factors of Natural Numbers.tex:27: Emergency stop.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.27 \psline[linewidth=2.pt](
+                             -1.,2.)(-1.,3.)
+End of file on the terminal!
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
-LaTeX Font Info:    Try loading font information for U+msa on input line 115.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 115.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (14.09998pt too wide) in paragraph at lines 111--116
-[] 
- []
-
-
-Overfull \hbox (14.09998pt too wide) in paragraph at lines 135--140
-[] 
- []
-
-[2] [3] (./Factors of Natural Numbers.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 18944 strings out of 492650
- 361341 string characters out of 6129648
- 477963 words of memory out of 5000000
- 22650 multiletter control sequences out of 15000+600000
- 536438 words of font info for 45 fonts, out of 8000000 for 9000
+ 19733 strings out of 492649
+ 373827 string characters out of 6129622
+ 465737 words of memory out of 5000000
+ 23424 multiletter control sequences out of 15000+600000
+ 531177 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,53p,10380b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on "Factors of Natural Numbers.dvi" (3 pages, 39720 bytes).
+ 44i,0n,53p,10380b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Factors of Natural Numbers.tex:27:  ==> Fatal error occurred, no output PDF f
+ile produced!
