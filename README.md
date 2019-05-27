@@ -5,7 +5,7 @@ The aim is to keep each section as self contained as possible without referencin
 
 Note to add: Real Life examples to introduce topics. 
 
-Note to add: When can we stop finding ways of multiply a number by two factors when finding all the factors and why. At least one example.
+Note to add: Factors of Natural Numbers section: When can we stop finding ways of multiply a number by two factors when finding all the factors and why. At least one example.
 
 Note to add: a comprehension exercise from a 'real world' scenario
 
@@ -18,3 +18,21 @@ Rationale:
 4. Follow with clear examples on how the topic works
 5. Exercises - quality and possibility to randomise rather than quantity (please talk to SB if unclear of what it means to randomise a question)
 
+
+Main sections:
+1. Number
+2. Algebra
+3. Geometry
+4. Data
+5. Calculus
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Cammy's work:
+
+
+Short Term Targets:
+1. Find more detailed materials on Form 1 curriculum. We only have a rough outline, we need more details.
+2. Review the material already written and try to find ways to improve them or correct any mistakes. Try to think of real life uses of the sections without real life motivation.
+3. Think of topics to start writing.
+4. Touch base with SB to start writing - Friday 31st.
+5. Start writing draft materials. 
