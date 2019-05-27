@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  25 MAY 2019 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  27 MAY 2019 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -725,7 +725,27 @@ Overfull \hbox (2.19865pt too wide) in paragraph at lines 137--137
 []|\OT1/cmr/m/n/10.95 198| 
  []
 
-[2] [3] (./LCM.aux) ) 
+[2] [3]
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 239--239
+[]|\OT1/cmr/m/n/10.95 182| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 250--250
+[]|\OT1/cmr/m/n/10.95 210| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 251--251
+[]|\OT1/cmr/m/n/10.95 105| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 273--273
+[]|\OT1/cmr/m/n/10.95 165| 
+ []
+
+[4] [5] (./LCM.aux) ) 
 Here is how much of TeX's memory you used:
  19782 strings out of 492649
  374413 string characters out of 6129622
@@ -740,10 +760,10 @@ onts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on LCM.pdf (3 pages, 60937 bytes).
+Output written on LCM.pdf (5 pages, 65461 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
