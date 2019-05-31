@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  31 MAY 2019 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  31 MAY 2019 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**BODMAS.tex
-(./BODMAS.tex
+**LCM.tex
+(./LCM.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -571,8 +571,8 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 )
 \c@exmp=\count293
 
-(./BODMAS.aux)
-\openout1 = `BODMAS.aux'.
+No file LCM.aux.
+\openout1 = `LCM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -586,7 +586,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
@@ -686,46 +685,6 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (102.87268pt too wide) in paragraph at lines 37--38
-[]|[]| 
- []
-
-
-Overfull \hbox (1.50162pt too wide) in paragraph at lines 38--38
-[]|\OT1/cmr/m/n/10.95 M| 
- []
-
-
-Overfull \hbox (157.89647pt too wide) in paragraph at lines 39--40
-[]|[]| 
- []
-
-
-Overfull \hbox (2.76006pt too wide) in paragraph at lines 58--62
-[][] 
- []
-
-
-Overfull \hbox (2.76006pt too wide) in paragraph at lines 66--70
-[][] 
- []
-
 [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -753,24 +712,23 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./BODMAS.aux) ) 
+(./LCM.aux) ) 
 Here is how much of TeX's memory you used:
- 19801 strings out of 492649
- 374757 string characters out of 6129622
- 474678 words of memory out of 5000000
- 23466 multiletter control sequences out of 15000+600000
- 536438 words of font info for 45 fonts, out of 8000000 for 9000
+ 19740 strings out of 492649
+ 373760 string characters out of 6129622
+ 465669 words of memory out of 5000000
+ 23428 multiletter control sequences out of 15000+600000
+ 532090 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,53p,10358b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on BODMAS.pdf (2 pages, 53443 bytes).
+ 44i,5n,53p,10355b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb>
+Output written on LCM.pdf (1 page, 34722 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

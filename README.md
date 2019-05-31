@@ -36,8 +36,7 @@ Cammy's work:
 
 
 Short Term Targets:
-1. Find more detailed materials on Form 1 curriculum. We only have a rough outline, we need more details.
-2. Review the material already written and try to find ways to improve them or correct any mistakes. Try to think of real life uses of the sections without real life motivation.
-3. Think of topics to start writing.
-4. Touch base with SB to start writing - Friday 31st.
-5. Start writing draft materials. 
+1. Understanding Git properly and being able to use it comfortably
+2. Review the HFC and LCM sections to understand the Rationale
+3. Start wrtining sections 9, 10 and 11 (Integers)
+4. Meeting next Friday (6th June) to be confirmed.
