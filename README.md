@@ -34,9 +34,21 @@ Main sections:
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 Cammy's work:
 
-
 Short Term Targets:
 1. Understanding Git properly and being able to use it comfortably
 2. Review the HFC and LCM sections to understand the Rationale
-3. Start wrtining sections 9, 10 and 11 (Integers)
+3. Start writing sections 9, 10 and 11 (Integers)
 4. Meeting next Friday (6th June) to be confirmed.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Oliver's work:
+
+1. Install git, clone the repository and learn basic git commands
+2. Start Proofreading and add text files to comment on possible changes. Spelling, Grammar, Maths mistakes, Audience
+3. Start looking at latex - Install it and consider "winedt"
+
+
+
+
