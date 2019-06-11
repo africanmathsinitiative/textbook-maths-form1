@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  31 MAY 2019 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  11 JUN 2019 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,26 +731,35 @@ Overfull \hbox (14.09998pt too wide) in paragraph at lines 100--105
 [] 
  []
 
-[3] (./Natural Numbers and Place Value.aux) ) 
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 129.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
+ [4] [5]
+(./Natural Numbers and Place Value.aux) ) 
 Here is how much of TeX's memory you used:
- 19791 strings out of 492649
- 374798 string characters out of 6129622
- 473763 words of memory out of 5000000
- 23457 multiletter control sequences out of 15000+600000
+ 19808 strings out of 492649
+ 375103 string characters out of 6129622
+ 474763 words of memory out of 5000000
+ 23471 multiletter control sequences out of 15000+600000
  536438 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,8n,53p,10385b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Natural Numbers and Place Value.pdf" (3 pages, 90539 bytes).
+</usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Natural Numbers and Place Value.pdf" (5 pages, 95750 bytes).
 
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
