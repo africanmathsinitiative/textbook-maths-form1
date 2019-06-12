@@ -18,10 +18,14 @@ Note to add: a comprehension exercise from a 'real world' scenario
 Rationale:
 
 1. Self contained sections
+1.1 Lesson objectives
 2. Try to start with a motivation as to why we study the topic in question
 3. Have a simple explanation of the topic in questions, using one or two examples within the explanations
 4. Follow with clear examples on how the topic works
 5. Exercises - quality and possibility to randomise rather than quantity (please talk to SB if unclear of what it means to randomise a question)
+6. At least one exercise with real life applications
+
+Note: Priorities would be point 1, 3, 4 and 5. 2 and 6 might need to be targeted to specific contexts so might need to be done separately. 
 
 
 Main sections:
@@ -50,5 +54,11 @@ Oliver's work:
 3. Start looking at latex - Install it and consider "winedt"
 
 
+
+
+NOTES FROM CHECKPOINT MEETING:
+1. HCF Separate initial task as activity and solution to be deployed automatically or by the student.
+2. Self contained doesn't mean that future learning can't be mentioned (decomposing numbers into product of primes, 'or' or 'other' discussion in BODMAS - think of mathematics as a language and how we communicate it). Perhaps in a different type of box. 
+3. 
 
 
